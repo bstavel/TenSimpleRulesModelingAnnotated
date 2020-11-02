@@ -12,10 +12,10 @@ for t = 1:T
     
     % compute choice probabilities
     p = [b 1-b];
-    
+
     % compute choice probability for actual choice
     choiceProb(t) = p(a(t));
-    
+
 end
 
 % compute negative log-likelihood
